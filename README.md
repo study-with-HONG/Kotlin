@@ -9,11 +9,11 @@
 
 * 2
   * array 생성
-    var arr = Array(size, {value})
+      var arr = Array(size, {value})
     
-    var arr2 = intArrayOf(value)
+      var arr2 = intArrayOf(value)
     
-    var arr3 = arrayOf<type>(value)
+      var arr3 = arrayOf<type>(value)
  
   * array 출력 - Arrays.toString(arr), arr.contentToString()
   * ddd
