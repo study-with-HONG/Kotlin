@@ -10,7 +10,7 @@
 * 2
   * array 생성<br>
   var arr = Array(size, {value})<br>
-  var arr2 = ''type''ArrayOf(value)<br>
+  var arr2 = intArrayOf(value) // int 대신 다른 타입 넣어도 됨<br>
   var arr3 = arrayOf&lt;type&gt;(value)<br>
  
   * array 출력 - Arrays.toString(arr), arr.contentToString()
