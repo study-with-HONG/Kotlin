@@ -9,6 +9,7 @@
 
 * 2
   * array 생성
+ 
       var arr = Array(size, {value})
     
       var arr2 = intArrayOf(value)
