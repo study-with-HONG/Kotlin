@@ -8,5 +8,6 @@
   * 자료형변환 toString(), toInt()
 
 * 2
-  * 
+  * array
+  * ddd
 * 3
