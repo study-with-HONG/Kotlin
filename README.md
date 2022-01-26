@@ -12,7 +12,6 @@
   var arr = Array(size, {value})<br>
   var arr2 = intArrayOf(value) // int 대신 다른 타입 넣어도 됨<br>
   var arr3 = arrayOf&lt;type&gt;(value)<br>
- 
   * array 출력 - Arrays.toString(arr), arr.contentToString()
-  * ddd
+  * filter{x -> 범위조건}
 * 3
