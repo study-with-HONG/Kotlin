@@ -14,4 +14,5 @@
   var arr3 = arrayOf&lt;type&gt;(value)<br>
   * array 출력 - Arrays.toString(arr), arr.contentToString()
   * filter{x -> 범위조건}
+  * DTO
 * 3
