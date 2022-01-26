@@ -66,5 +66,6 @@ fun main(args: Array<String>) {
 //    products.sortBy { it.price }
 //    products.forEach { println("${it.name}, ${it.price}") }
 }
+
 // DTO
 data class Product(val name:String, val price:Double) // data는 생략 가능
