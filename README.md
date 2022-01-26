@@ -1,8 +1,8 @@
 # Kotlin
 
 * 1
-- 입출력readLine()
-- Scanner(System.`in`)
+    입출력readLine()
+    Scanner(System.`in`)
 - var/val
 - ==/===
 - ?/!!
