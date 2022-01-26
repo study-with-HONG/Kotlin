@@ -2,9 +2,9 @@
 
 * 1
   * 입출력 - readLine(), Scanner(System.`in`)
-  * var/val
-  * ==/===
-  * ?/!!
+  * var / val
+  * == / ===
+  * ? / !!
   * 자료형변환 - toString(), toInt()
 
 * 2
