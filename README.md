@@ -20,3 +20,4 @@
   * if
   * when -> java에서 switch
   * foreach
+  * while, do while, continue, break
