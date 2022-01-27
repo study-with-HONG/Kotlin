@@ -18,3 +18,4 @@
 
 * 3
   * if
+  * when -> java에서 switch
