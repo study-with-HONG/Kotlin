@@ -18,8 +18,8 @@ fun main(args: Array<String>) {
 //    add2(z = 10)
 
     //// 가변인자
-    arrPrint(1, 2, 3, 4, 5)
-    arrPrint(10, 20, 30)
+//     arrPrint(1, 2, 3, 4, 5)
+//     arrPrint(10, 20, 30)
 }
 
 //fun sum(a:Int, b:Int) = a + b // 람다식 함수
