@@ -14,15 +14,15 @@ fun main(args: Array<String>) {
 //        println("finally")
 //    }
 
-    var money = 1000
-
-    try {
-        money -= 200
-        checkAmount(money)
-    }catch (e:Exception){
-        println(e.message)
-    }
-    println("뿅")
+//     var money = 1000
+//
+//     try {
+//         money -= 200
+//         checkAmount(money)
+//     }catch (e:Exception){
+//         println(e.message)
+//     }
+//     println("뿅")
 }
 
 fun checkAmount(money:Int){
