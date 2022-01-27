@@ -55,17 +55,4 @@ fun main(args: Array<String>) {
 //    var f3 = fruits.sortedByDescending { it }     // 역순으로 정렬
 //    var f4 = fruits.map { it.toUpperCase() }      // 대문자 변환
 //    println(f1)
-
-    //// DTO
-//    val products = arrayOf(
-//        Product("Mouse", 3000.0),
-//        Product("Keyboard", 5500.0),
-//        Product("Monitor", 250000.0),
-//        Product("Tablet", 180000.0)
-//    )
-//    products.sortBy { it.price }
-//    products.forEach { println("${it.name}, ${it.price}") }
 }
-
-// DTO
-data class Product(val name:String, val price:Double) // data는 생략 가능
