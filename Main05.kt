@@ -9,13 +9,13 @@ fun main(args: Array<String>) {
 //    mail("정유미", "dbal@naver.com")
 //    mail("최우식")
 
-//    add()
-//    add(30)
-//    add(50, 50)
+//    sum2()
+//    sum2(30)
+//    sum2(50, 50)
 
-//    add2(100, 100, 100)
-//    add2(50, z = 50) // z=을 안하면 y값으로 인식함
-//    add2(z = 10)
+//    sum3(100, 100, 100)
+//    sum3(50, z = 50) // z=을 안하면 y값으로 인식함
+//    sum3(z = 10)
 
     //// 가변인자
 //     arrPrint(1, 2, 3, 4, 5)
@@ -39,11 +39,11 @@ fun mail(name:String, email:String = "nobody"){
     println(prt)
 }
 
-fun add(x:Int = 10, y:Int = 50){
+fun sum2(x:Int = 10, y:Int = 50){
     println(x + y)
 }
 
-fun add2(x:Int = 10, y:Int = 10, z:Int){
+fun sum3(x:Int = 10, y:Int = 10, z:Int){
     println(x + y + z)
 }
 
