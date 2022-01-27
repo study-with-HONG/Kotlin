@@ -102,13 +102,13 @@ fun main(args: Array<String>) {
 //    }while (num2 < 15)
 
     // continue, break
-    for(i in 1..5){
-        if(i == 3) continue
-        println(i)
-    }
+//     for(i in 1..5){
+//         if(i == 3) continue
+//         println(i)
+//     }
 
-    for(j in 10..15){
-        if(j == 13) break
-        println(j)
-    }
+//     for(j in 10..15){
+//         if(j == 13) break
+//         println(j)
+//     }
 }
