@@ -5,7 +5,7 @@
   * var,  val
   * ==,  ===
   * ?,  !!
-  * 자료형변환 - toString(), toInt()
+  * 자료형 타입 및 변환 - toString(), toInt()
 
 * 2
   * array 생성<br>
