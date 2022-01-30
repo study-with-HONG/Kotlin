@@ -23,10 +23,6 @@ fun main(args: Array<String>) {
 //        println("숫자가 아닙니다")
 //    }
 
-    //// 논리 연산자
-//    if(why > 0 && why < 10){println("why는 0보다 크고, 10보다 작다")}
-//    if((why > 0) and (why < 10)){println("why는 0보다 크고, 10보다 작다")} // 문자랑 영어 둘 다 가능
-
     //// 둘 중에 누가 더 큰가
 //    val a = 15
 //    val b = 30
