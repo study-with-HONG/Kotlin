@@ -96,7 +96,7 @@ fun main(args: Array<String>) {
 //        num2++
 //    }while (num2 < 15)
 
-    // continue, break
+    //// continue, break
 //     for(i in 1..5){
 //         if(i == 3) continue
 //         println(i)
@@ -106,4 +106,19 @@ fun main(args: Array<String>) {
 //         if(j == 13) break
 //         println(j)
 //     }
+    
+    //// lable : break@label명
+//     var x = 0
+//     var y = 0
+
+//     outer@ while(x < 10){
+//         y = 0
+//         while(y < 5){
+//             if(x + y == 5 && x - y == 1)
+//                 break@outer
+//             y += 1
+//         }
+//         x += 1
+//     }
+//     println("x : $x, y : $y")
 }
