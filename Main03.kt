@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 //    } else{str2 = "Soso"}
 //    println(str2) // 방법2
 
-    //// 삼항연산자 비슷 -> kotlin에는 삼항연산자 X
+    //// if 표현식 : kotlin에는 삼항연산자 X -> 비슷한 것
 //    val str3 = if(num > 80) "Good" else "Soso"
 //    println(str3)
 
@@ -37,25 +37,24 @@ fun main(args: Array<String>) {
 //           else{"D"}
 //    println("score : $score, grade : $grade")
 
-    //// switch
+    //// when -> switch랑 비슷
 //    val num = 2
 //    val str = when(num){
 //        1 -> "ABC"
 //        2, 3 -> "DEF"
-//        else -> "GHI"
+//        else -> "GHI" // else 없으면 오류
 //    }
 //    println(str)
 
 //    val num2 = 5.5
 //    var str2:Char = 'Z'
-//
 //    when(num2){
 //        in 8.0..10.0 -> str2 = 'A'  // num2 > 8.8
 //        in 5.0..7.9 -> str2 = 'B'   // num2 in 5.0..7.9
 //        in 3.0..4.9 -> str2 = 'C'   // num2 in 3.0..4.9
 //        !in 3.0..10.0 -> str2 = 'F' // num2 < 3
 //    }
-//    println(str2)
+//    println(str2+"학점")
 
     //// foreach
 //    val arr = arrayOf(1, 2, 3)
@@ -90,7 +89,7 @@ fun main(args: Array<String>) {
 //        println(num)
 //        num++
 //    }
-//
+
 //    var num2 = 10
 //    do{
 //        println(num2)
