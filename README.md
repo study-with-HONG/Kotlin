@@ -18,7 +18,7 @@
 
 * 3
   * if
-  * when -> java에서 switch
+  * when -> switch랑 비슷
   * foreach
   * while, do while
   * continue, break
