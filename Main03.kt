@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 //    } else{str2 = "Soso"}
 //    println(str2) // 방법2
 
-    //// if 표현식 : kotlin에는 삼항연산자 X -> 비슷한 것
+    //// if 표현식 : kotlin에는 삼항연산자 X -> 비슷함
 //    val str3 = if(num > 80) "Good" else "Soso"
 //    println(str3)
 
