@@ -19,9 +19,9 @@ fun main(args: Array<String>) {
 
     //// 전역변수, 지역변수
 //    fun localFuc(){
-//        golbalVar = 10 // 지역변수
+//        golbalVar = 10 // 지역변수 - 전역변수와 이름 중복가능(kotlin)
 //    }
-//    localFuc() // golbalVar값이 10으로 바뀜
+//    localFuc() // golbalVar값이 10으로 바뀜 -> 가까운 코드 값 반영
 //    println(golbalVar)
     
     //// 오버로딩 overLoading - 함수 이름이 같지만 매개변수타입이나 갯수가 다름
