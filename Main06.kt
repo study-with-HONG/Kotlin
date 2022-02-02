@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
 
     //// 전역변수, 지역변수
 //    fun localFuc(){
-//        golbalVar = 10
+//        golbalVar = 10 // 지역변수
 //    }
 //    localFuc() // golbalVar값이 10으로 바뀜
 //    println(golbalVar)
