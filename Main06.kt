@@ -25,9 +25,9 @@ fun main(args: Array<String>) {
 //    println(golbalVar)
     
     //// 오버로딩 overLoading - 함수 이름이 같지만 매개변수타입이나 갯수가 다름
-    oLoading(1)
-    oLoading2("Hi")
-    oLoading3(11, "Hello")
+//     oLoading(1)
+//     oLoading2("Hi")
+//     oLoading3(11, "Hello")
 }
 
 fun sum(a:Int, b:Int) = a + b
