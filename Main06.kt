@@ -41,7 +41,7 @@ fun funParam(a:Int, b:Int, c:(Int, Int) -> Int):Int{
 fun hello(tt:(String, String) -> String){ // String 2개 받아서 String으로 반환
     println(tt("안녕", "사와디캅"))
 }
-
+ 
 //// 오버로딩
 fun oLoading(x:Int){
     println("oLoading(x:Int) 호출"
