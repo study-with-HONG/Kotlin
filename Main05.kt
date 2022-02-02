@@ -21,7 +21,7 @@ fun main(args: Array<String>) {
 //     arrPrint(1, 2, 3, 4, 5)
 //     arrPrint(10, 20, 30)
     
-    //// unit 반환값이 없는 타입
+    //// Unit 반환값이 없는 타입
 //     aaUnit(15)
 }
 
@@ -58,7 +58,7 @@ fun arrPrint(vararg arr:Int){
     println()
 }
 
-//// unit 생략가능
+//// Unit 생략가능
 fun aaUnit(xx:Int):Unit{
     print(xx * 0.5 + 30)
 }
