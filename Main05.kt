@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
 //    val m = max(7, 5)
 //    println("max : $m")
 
-    //// default parameters
+    //// 기본인수
 //    mail("정유미", "dbal@naver.com")
 //    mail("최우식")
 
@@ -51,6 +51,11 @@ fun sum3(x:Int = 10, y:Int = 10, z:Int){
 }
 
 //// 가변인자
+/*  일반 변수와 같이 사용할 수 있지만 마지막에 배치해야 함.
+    fun myFunc(a:Char, vararg b:Int):Int
+    fun myFunc2(vararg c:Int, d:Char):Int 오류
+    fun myFunc3(vararg e:Int, f = 'F'):Int 가변인수가 먼저 올 때는 일반변수에 기본인수 대입
+*/
 fun arrPrint(vararg arr:Int){
     for(i in arr){
         print("$i ")
