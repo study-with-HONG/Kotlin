@@ -1,61 +1,43 @@
 fun main(args: Array<String>) {
-//    val products = arrayOf(
-//        Product("Mouse", 3000.0),
-//        Product("Monitor", 250000.0),
-//        Product("Tablet", 180000.0),
-//        Product("Keyboard", 5500.0)
-//    )
-//    products.sortBy { it.price } // 가격순으로 정렬
-//    products.forEach { println("${it.name}, ${it.price}") }
+    // 예제 1
+//    val pro = arrayOf(Product("Monitor", 200000),
+//                      Product("Mouse", 50000),
+//                      Product("desktop", 650000),
+//                      Product("key board", 100000))
+//    pro.sortBy { it.price } // 가격순으로 정렬
+//    pro.forEach { println("${it.name}, ${it.price}") }
 
-//    var ps = Person("우식", "최", 30)
+    // 예제 2
+//    var ps = Name("우식", "최")
 //    println(ps.fullName())
-//    ps.firstName = "유미"
+//    ps.firstName = "다미"
 //    println(ps.fullName())
 
-//    val hu = Human("abc123", "1234", "뽀삐")
-//    println(hu.id)
-//    hu.pwd = "0147"
-//    println(hu.pwd)
+    // 예제 3
+//    val mem1 = Member("abc123", "password123", "happy")
+//    println(mem1.id)
 //
-//    val hu2 = Human("asdf12", "qwer", "누리")
-//    println(hu2.id)
-//    println(hu2.fullInform())
-
-//    val b = Bird()
-//    b.color = "yellow"
-//    b.birdColor()
-//    b.birdName()
+//    val mem2 = Member("qazqaz", "a1b2c3", "day")
+//    println(mem2.memInformation())
 }
+data class Product(val name:String, val price:Int) // data 생략 가능
 
-data class Product(val name:String, val price:Double) // data는 생략 가능
-
-class Person{
+class Name{
     var firstName:String
     var lastName:String
-    var age:Int
 
-    constructor(firstName: String, lastName: String, age: Int) {
+    // 코드 -> 생성 -> 보조 생성자
+    constructor(firstName: String, lastName: String) {
         this.firstName = firstName
         this.lastName = lastName
-        this.age = age
     }
-    fun fullName(): String {
-        return "$lastName$firstName ${age}살"
-    }
-}
-
-data class Human(val id:String, var pwd:String, var name:String){
-    fun fullInform():String{
-        return "$id $pwd $name"
+    fun fullName():String{
+        return "$lastName $firstName"
     }
 }
 
-class Bird{
-    var name:String = "참새"
-    var wing:Int = 2
-    var color:String = "brown"
-
-    fun birdColor() = println("bird color : $color")
-    fun birdName() = println("bird name : $name")
+class Member(val id:String, var pwd:String, var name:String){
+    fun memInformation():String{
+        return "id:$id, password:$pwd, name:$name"
+    }
 }
