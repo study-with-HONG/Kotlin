@@ -28,7 +28,6 @@ fun main(args: Array<String>) {
 //    b.birdName()
 }
 
-//// DTO, VO
 data class Product(val name:String, val price:Double) // data는 생략 가능
 
 class Person{
