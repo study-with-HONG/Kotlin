@@ -45,3 +45,9 @@
   * 접근제한자(public, protected, internal, private)
   * 외부 선언, 내부 선언
   * 기본 생성자, 보조 생성자
+
+* 9
+  * getter, setter
+
+* 10
+  * lazy : 최대한 계산을 늦췄다가 필요할 때 사용
