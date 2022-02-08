@@ -34,8 +34,14 @@
   
 * 6
   * 함수 참조 ::
-  * 전역변수, 지역변수
+  * 전역변수(heap에 저장 -> object도 heap에 저장됨.), 지역변수(stack에 저장)
   * 오버로딩 overloading
 
 * 7
-  * DTO
+  * DTO 예제 3개
+  * constructor 생성
+
+* 8
+  * 접근제한자(public, protected, internal, private)
+  * 외부 선언, 내부 선언
+  * 기본 생성자, 보조 생성자
