@@ -23,8 +23,7 @@
   * while, do while
   * continue, break
 
-* 4
-  * 에러처리
+* 4 : 에러처리
 
 * 5
   * 함수<br>
@@ -46,11 +45,9 @@
   * 외부 선언, 내부 선언
   * 기본 생성자, 보조 생성자
 
-* 9
-  * getter, setter
+* 9 : getter, setter
 
-* 10
-  * lazy : 최대한 계산을 늦췄다가 필요할 때 사용
+* 10 : lazy -> 최대한 계산을 늦췄다가 필요할 때 사용
 
 * 11
   * 오버라이드(override)
@@ -60,5 +57,4 @@
   * 추상 클래스, 추상 메소드 -> 가이드 라인이니 override로 재구현 필요
   * 인터페이스, 다중 상속
 
-* 13(복습필요)
-  * Controller - Service - Dao
+* 13(복습필요) : Controller - Service - Dao
