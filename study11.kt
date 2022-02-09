@@ -10,9 +10,9 @@ fun main(args: Array<String>) {
 //    println(child.fullName)
 
     //// 오버라이드 2
-//    val c = Crow("까마귀", "black", 50, 5)
-//    println(c.toString())
-//    println(c.allData()) // 부모와 자식 class 둘 다 실행
+    val c = Crow("까마귀", "black", 50, 5)
+    println(c.toString())
+    println(c.allData())
 
     //// 오버로드
 //     val cal = Calc()
@@ -23,18 +23,18 @@ fun main(args: Array<String>) {
 }
 //// 오버라이드 1
 open class HumanName(var firstName:String = "분홍", var lastName:String = "진"){
-/*class HumanName{
-    var firstName:String
-    var lastName:String
+    /*class HumanName{
+        var firstName:String
+        var lastName:String
 
-    constructor(firstName: String, lastName: String) {
-        this.firstName = firstName
-        this.lastName = lastName
-    }*/
+        constructor(firstName: String, lastName: String) {
+            this.firstName = firstName
+            this.lastName = lastName
+        }*/
     open val fullName:String
         get() = "$lastName$firstName"
 }
-    // 자식 class : 부모에 있는 변수는 선언할 때 var, val 생략
+// 자식 class : 부모에 있는 변수는 선언할 때 var, val 생략
 class Child(firstName: String, lastName: String, var address:String):HumanName(firstName, lastName){
     // 코드 -> 메소드 재정의 : override 역시 부모에 open을 작성해야 함
     override val fullName: String
@@ -51,7 +51,7 @@ open class Bird(val name:String, var color:String, var size:Int){
         return "Bird(name='$name', color='$color', size=$size)"
     }
     open fun allData(){
-        println("$name $color")
+        print("$name $color ")
     }
 }
 class Sparrow(name:String, color:String, size:Int):Bird(name, color, size){
