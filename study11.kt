@@ -10,9 +10,9 @@ fun main(args: Array<String>) {
 //    println(child.fullName)
 
     //// 오버라이드 2
-    val c = Crow("까마귀", "black", 50, 5)
-    println(c.toString())
-    println(c.allData())
+//     val c = Crow("까마귀", "black", 50, 5)
+//     println(c.toString())
+//     println(c.allData())
 
     //// 오버로드
 //     val cal = Calc()
