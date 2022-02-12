@@ -58,3 +58,10 @@
   * 인터페이스, 다중 상속
 
 * 13(복습필요) : Controller - Service - Dao
+
+* 14 : generic
+
+* 15(collection)
+  * List, emptyList, listOfNotNull
+  * ArrayList, MutableList
+  * List -> MutableList / Array -> List / List -> Array
