@@ -65,3 +65,14 @@
   * List, emptyList, listOfNotNull
   * ArrayList, MutableList
   * List -> MutableList / Array -> List / List -> Array
+
+* 16(collection)
+  * Map
+  * MutableMap
+  * 오름차순, 내림차순 정렬 sortedBy, sortedByDescending
+
+* 17
+  * 파일 생성 및 쓰기
+  * 파일 복사
+  * 파일 읽기
+  * use, useLines
